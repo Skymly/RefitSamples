@@ -46,7 +46,7 @@ namespace RefitSamples.Controllers
 
 
         [HttpGet("Headers")]
-        public IEnumerable<KeyValuePair<string,string>> Headers()
+        public Dictionary<string, string> Headers()
         {
             Dictionary<string, string> dict = new Dictionary<string, string>();
 
